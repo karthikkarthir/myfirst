@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+.max-width
+{
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+}
+/*navibar styling*/
+.navbar
+{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0px;
+    background: aqua;
+    font-family: 'Ubuntu',sans-serif;
+    transition: all 0.35 ease;
+
+}
+
+.navbar.sticky
+{
+    padding: 30px 0;
+    background:aqua;
+}
+
+.navbar .max-width
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a
+{
+    coor: #fff;
+    font-size: 35px;
+    font-weight: 600px;
+
+}
+.navbar .logo a span
+{
+  color: crimson;
+}
+.navbar .menu li 
+{
+   list-style: none;
+   display: inline-block;
+}
+.navbar .menu li a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover
+{
+    color: crimson;
+}
+
+
+/* styleing home page */
+.home
+{
+    display: flex;
+    background: url("./resources/download.jpg") center;
+    height: 100vh;
+    
+    color: red;
+    min-height: 500px;
+    font-family: 'ubuntu',sans-serif;
+    
+
+}
+.home .max-width
+{
+    margin:auto 0 auto 40px;
+}
+.home .home-content .text2
+{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .home-content .text1
+{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+
+.para
+{
+    font-family: 'ubuntu' sans-serif;
+    font-size: 25px;
+    font-display: inherit;
+
+}
+.h1
+{
+    font-style: bold;
+    text-decoration: underline;
+}
